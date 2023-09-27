@@ -1,0 +1,10 @@
+body.dark-mode video {
+    filter: invert(1);
+}
+.overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 998;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: none;
+}
